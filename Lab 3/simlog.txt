@@ -1,0 +1,1373 @@
+/usr/lib/jvm/java-17-openjdk/bin/java -javaagent:/home/wxx9248/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/221.5921.22/lib/idea_rt.jar=34969:/home/wxx9248/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/221.5921.22/bin -Dfile.encoding=UTF-8 -classpath /mnt/Data/Development/CEG3185-Summer-2022-Lab/Lab 3/out/production/Lab 3 Net_Console
+Creating a new NetNode A
+Creating a new NetNode B
+Creating a new NetNode C
+Creating a new NetNode D
+NetNode A thread started
+NetNode B thread started
+NetNode D thread started
+Creating a new NetNode E
+NetNode C thread started
+Creating a new NetNode F
+NetNode E thread started
+Creating a new NetNode G
+NetNode F thread started
+Creating a new NetNode H
+NetNode G thread started
+Creating a new NetNode I
+NetNode H thread started
+Creating a new NetNode J
+NetNode I thread started
+Creating a new NetNode K
+NetNode J thread started
+Creating a new NetNode L
+Creating a new NetNode M
+NetNode K thread started
+NetNode L thread started
+Creating a new NetNode N
+NetNode M thread started
+Creating a new NetNode O
+NetNode N thread started
+Creating a new NetNode P
+NetNode O thread started
+Creating a new NetNode Q
+NetNode P thread started
+Creating a new NetNode R
+Creating a new NetNode S
+NetNode R thread started
+Creating a new NetNode T
+NetNode Q thread started
+NetNode S thread started
+Creating a new NetNode U
+NetNode T thread started
+Creating a new NetNode V
+NetNode U thread started
+Creating a new NetNode W
+NetNode V thread started
+Creating a new NetNode X
+NetNode W thread started
+Creating a new NetNode Y
+NetNode X thread started
+Creating a new NetNode Z
+NetNode Y thread started
+NetNode Z thread started
+subnet: 4, subnet_mask: 0xFFFFFFFC
+Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on
+NodeA added: Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 0
+Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 0
+subnet: 4, subnet_mask: 0xFFFFFFFC
+subnet: 4, subnet_mask: 0xFFFFFFFC
+subnet: 4, subnet_mask: 0xFFFFFFFC
+subnet: 4, subnet_mask: 0xFFFFFFFC
+NodeE added: Routing_Table_Entry: dst: E, next_hop: E, subnet: 0xFC, cost: 0
+Routing_Table_Entry: dst: E, next_hop: E, subnet: 0xFC, cost: 0
+subnet: 4, subnet_mask: 0xFFFFFFFC
+subnet: 4, subnet_mask: 0xFFFFFFFC
+subnet: 4, subnet_mask: 0xFFFFFFFC
+subnet: 8, subnet_mask: 0xFFFFFFF8
+NodeI added: Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 0
+Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 0
+subnet: 8, subnet_mask: 0xFFFFFFF8
+subnet: 8, subnet_mask: 0xFFFFFFF8
+subnet: 8, subnet_mask: 0xFFFFFFF8
+subnet: 8, subnet_mask: 0xFFFFFFF8
+subnet: 8, subnet_mask: 0xFFFFFFF8
+subnet: 8, subnet_mask: 0xFFFFFFF8
+subnet: 8, subnet_mask: 0xFFFFFFF8
+subnet: 4, subnet_mask: 0xFFFFFFFC
+NodeQ added: Routing_Table_Entry: dst: Q, next_hop: Q, subnet: 0xFC, cost: 0
+Routing_Table_Entry: dst: Q, next_hop: Q, subnet: 0xFC, cost: 0
+subnet: 4, subnet_mask: 0xFFFFFFFC
+subnet: 4, subnet_mask: 0xFFFFFFFC
+subnet: 4, subnet_mask: 0xFFFFFFFC
+subnet: 4, subnet_mask: 0xFFFFFFFC
+NodeU added: Routing_Table_Entry: dst: U, next_hop: U, subnet: 0xFC, cost: 0
+Routing_Table_Entry: dst: U, next_hop: U, subnet: 0xFC, cost: 0
+subnet: 4, subnet_mask: 0xFFFFFFFC
+subnet: 4, subnet_mask: 0xFFFFFFFC
+subnet: 4, subnet_mask: 0xFFFFFFFC
+subnet: 1, subnet_mask: 0xFFFFFFFF
+NodeY added: Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 0
+Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 0
+subnet: 1, subnet_mask: 0xFFFFFFFF
+NodeZ added: Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 0
+Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 0
+received routing msg: msg#0, time_to_live=9, type: ROUTING_MSG, dst: Y, path: A
+routing_msg_payload.length = 4 number of routing entries = 1
+recovered entry #0, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 0
+NodeY added: Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+received routing msg: msg#1, time_to_live=9, type: ROUTING_MSG, dst: Z, path: Y
+routing_msg_payload.length = 8 number of routing entries = 2
+recovered entry #0, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 0
+NodeZ added: Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+NodeZ added: Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+received routing msg: msg#3, time_to_live=9, type: ROUTING_MSG, dst: I, path: A
+routing_msg_payload.length = 4 number of routing entries = 1
+recovered entry #0, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 0
+NodeI added: Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+received routing msg: msg#4, time_to_live=9, type: ROUTING_MSG, dst: A, path: I
+routing_msg_payload.length = 8 number of routing entries = 2
+recovered entry #0, Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 0
+NodeA added: Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 1
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+##################################################
+###### Check that all messages sent are received ######
+received routing msg: msg#7, time_to_live=9, type: ROUTING_MSG, dst: Q, path: Z
+routing_msg_payload.length = 12 number of routing entries = 3
+recovered entry #0, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 0
+NodeQ added: Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #1, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+NodeQ added: Routing_Table_Entry: dst: Y, next_hop: Z, subnet: 0xFF, cost: 2
+recovered entry #2, Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+NodeQ added: Routing_Table_Entry: dst: A, next_hop: Z, subnet: 0xFC, cost: 3
+ ###### msg_sent 3  msg_terminated 4 done_routing false ######
+received routing msg: msg#6, time_to_live=9, type: ROUTING_MSG, dst: I, path: A
+routing_msg_payload.length = 8 number of routing entries = 2
+recovered entry #0, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 1
+received routing msg: msg#10, time_to_live=9, type: ROUTING_MSG, dst: E, path: Y
+routing_msg_payload.length = 8 number of routing entries = 2
+recovered entry #0, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 0
+NodeE added: Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+NodeE added: Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+received routing msg: msg#12, time_to_live=9, type: ROUTING_MSG, dst: U, path: Z
+routing_msg_payload.length = 12 number of routing entries = 3
+recovered entry #0, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 0
+NodeU added: Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #1, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+NodeU added: Routing_Table_Entry: dst: Y, next_hop: Z, subnet: 0xFF, cost: 2
+recovered entry #2, Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+NodeU added: Routing_Table_Entry: dst: A, next_hop: Z, subnet: 0xFC, cost: 3
+received routing msg: msg#2, time_to_live=9, type: ROUTING_MSG, dst: Y, path: Z
+routing_msg_payload.length = 12 number of routing entries = 3
+recovered entry #0, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 0
+NodeY added: Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #1, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+received routing msg: msg#9, time_to_live=9, type: ROUTING_MSG, dst: A, path: Y
+routing_msg_payload.length = 8 number of routing entries = 2
+recovered entry #0, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 0
+NodeA added: Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+received routing msg: msg#8, time_to_live=9, type: ROUTING_MSG, dst: Z, path: Q
+routing_msg_payload.length = 16 number of routing entries = 4
+recovered entry #0, Routing_Table_Entry: dst: Q, next_hop: Q, subnet: 0xFC, cost: 0
+NodeZ added: Routing_Table_Entry: dst: Q, next_hop: Q, subnet: 0xFC, cost: 1
+recovered entry #1, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: Z, subnet: 0xFF, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: A, next_hop: Z, subnet: 0xFC, cost: 3
+received routing msg: msg#18, time_to_live=9, type: ROUTING_MSG, dst: I, path: A
+routing_msg_payload.length = 12 number of routing entries = 3
+recovered entry #0, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+NodeI added: Routing_Table_Entry: dst: Y, next_hop: A, subnet: 0xFF, cost: 2
+ done_routing false
+ ###### msg_sent 16  msg_terminated 12 done_routing false ######
+received routing msg: msg#20, time_to_live=9, type: ROUTING_MSG, dst: E, path: Y
+routing_msg_payload.length = 12 number of routing entries = 3
+recovered entry #0, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+NodeE added: Routing_Table_Entry: dst: Z, next_hop: Y, subnet: 0xFF, cost: 2
+received routing msg: msg#22, time_to_live=9, type: ROUTING_MSG, dst: Q, path: Z
+routing_msg_payload.length = 16 number of routing entries = 4
+recovered entry #0, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: Q, next_hop: Q, subnet: 0xFC, cost: 1
+received routing msg: msg#16, time_to_live=9, type: ROUTING_MSG, dst: A, path: Y
+routing_msg_payload.length = 12 number of routing entries = 3
+recovered entry #0, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+NodeA added: Routing_Table_Entry: dst: Z, next_hop: Y, subnet: 0xFF, cost: 2
+received routing msg: msg#24, time_to_live=9, type: ROUTING_MSG, dst: I, path: A
+routing_msg_payload.length = 16 number of routing entries = 4
+recovered entry #0, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #3, Routing_Table_Entry: dst: Z, next_hop: Y, subnet: 0xFF, cost: 2
+NodeI added: Routing_Table_Entry: dst: Z, next_hop: A, subnet: 0xFF, cost: 3
+received routing msg: msg#19, time_to_live=9, type: ROUTING_MSG, dst: A, path: I
+routing_msg_payload.length = 12 number of routing entries = 3
+recovered entry #0, Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: A, subnet: 0xFF, cost: 2
+received routing msg: msg#25, time_to_live=9, type: ROUTING_MSG, dst: A, path: I
+routing_msg_payload.length = 16 number of routing entries = 4
+recovered entry #0, Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: A, subnet: 0xFF, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: Z, next_hop: A, subnet: 0xFF, cost: 3
+received routing msg: msg#5, time_to_live=9, type: ROUTING_MSG, dst: Y, path: A
+routing_msg_payload.length = 8 number of routing entries = 2
+recovered entry #0, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 1
+NodeY added: Routing_Table_Entry: dst: I, next_hop: A, subnet: 0xF8, cost: 2
+received routing msg: msg#27, time_to_live=9, type: ROUTING_MSG, dst: U, path: Z
+routing_msg_payload.length = 16 number of routing entries = 4
+recovered entry #0, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: Q, next_hop: Q, subnet: 0xFC, cost: 1
+NodeU added: Routing_Table_Entry: dst: Q, next_hop: Z, subnet: 0xFC, cost: 2
+received routing msg: msg#29, time_to_live=9, type: ROUTING_MSG, dst: A, path: Y
+routing_msg_payload.length = 16 number of routing entries = 4
+recovered entry #0, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #3, Routing_Table_Entry: dst: I, next_hop: A, subnet: 0xF8, cost: 2
+received routing msg: msg#13, time_to_live=9, type: ROUTING_MSG, dst: Z, path: U
+routing_msg_payload.length = 16 number of routing entries = 4
+recovered entry #0, Routing_Table_Entry: dst: U, next_hop: U, subnet: 0xFC, cost: 0
+NodeZ added: Routing_Table_Entry: dst: U, next_hop: U, subnet: 0xFC, cost: 1
+recovered entry #1, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: Z, subnet: 0xFF, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: A, next_hop: Z, subnet: 0xFC, cost: 3
+ done_routing false
+ ###### msg_sent 28  msg_terminated 22 done_routing false ######
+received routing msg: msg#31, time_to_live=9, type: ROUTING_MSG, dst: E, path: Y
+routing_msg_payload.length = 16 number of routing entries = 4
+recovered entry #0, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #3, Routing_Table_Entry: dst: I, next_hop: A, subnet: 0xF8, cost: 2
+NodeE added: Routing_Table_Entry: dst: I, next_hop: Y, subnet: 0xF8, cost: 3
+received routing msg: msg#33, time_to_live=9, type: ROUTING_MSG, dst: Q, path: Z
+routing_msg_payload.length = 20 number of routing entries = 5
+recovered entry #0, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: Q, next_hop: Q, subnet: 0xFC, cost: 1
+recovered entry #4, Routing_Table_Entry: dst: U, next_hop: U, subnet: 0xFC, cost: 1
+NodeQ added: Routing_Table_Entry: dst: U, next_hop: Z, subnet: 0xFC, cost: 2
+received routing msg: msg#11, time_to_live=9, type: ROUTING_MSG, dst: Y, path: E
+routing_msg_payload.length = 12 number of routing entries = 3
+recovered entry #0, Routing_Table_Entry: dst: E, next_hop: E, subnet: 0xFC, cost: 0
+NodeY added: Routing_Table_Entry: dst: E, next_hop: E, subnet: 0xFC, cost: 1
+recovered entry #1, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+received routing msg: msg#36, time_to_live=9, type: ROUTING_MSG, dst: U, path: Z
+routing_msg_payload.length = 20 number of routing entries = 5
+recovered entry #0, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: Q, next_hop: Q, subnet: 0xFC, cost: 1
+recovered entry #4, Routing_Table_Entry: dst: U, next_hop: U, subnet: 0xFC, cost: 1
+received routing msg: msg#37, time_to_live=9, type: ROUTING_MSG, dst: A, path: Y
+routing_msg_payload.length = 20 number of routing entries = 5
+recovered entry #0, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #3, Routing_Table_Entry: dst: I, next_hop: A, subnet: 0xF8, cost: 2
+recovered entry #4, Routing_Table_Entry: dst: E, next_hop: E, subnet: 0xFC, cost: 1
+NodeA added: Routing_Table_Entry: dst: E, next_hop: Y, subnet: 0xFC, cost: 2
+received routing msg: msg#39, time_to_live=9, type: ROUTING_MSG, dst: I, path: A
+routing_msg_payload.length = 20 number of routing entries = 5
+recovered entry #0, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #3, Routing_Table_Entry: dst: Z, next_hop: Y, subnet: 0xFF, cost: 2
+recovered entry #4, Routing_Table_Entry: dst: E, next_hop: Y, subnet: 0xFC, cost: 2
+NodeI added: Routing_Table_Entry: dst: E, next_hop: A, subnet: 0xFC, cost: 3
+received routing msg: msg#41, time_to_live=9, type: ROUTING_MSG, dst: E, path: Y
+routing_msg_payload.length = 20 number of routing entries = 5
+recovered entry #0, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #3, Routing_Table_Entry: dst: I, next_hop: A, subnet: 0xF8, cost: 2
+recovered entry #4, Routing_Table_Entry: dst: E, next_hop: E, subnet: 0xFC, cost: 1
+received routing msg: msg#14, time_to_live=9, type: ROUTING_MSG, dst: Z, path: Y
+routing_msg_payload.length = 12 number of routing entries = 3
+recovered entry #0, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+received routing msg: msg#26, time_to_live=9, type: ROUTING_MSG, dst: Z, path: Y
+routing_msg_payload.length = 16 number of routing entries = 4
+recovered entry #0, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #3, Routing_Table_Entry: dst: I, next_hop: A, subnet: 0xF8, cost: 2
+NodeZ added: Routing_Table_Entry: dst: I, next_hop: Y, subnet: 0xF8, cost: 3
+received routing msg: msg#43, time_to_live=9, type: ROUTING_MSG, dst: Q, path: Z
+routing_msg_payload.length = 24 number of routing entries = 6
+recovered entry #0, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: Q, next_hop: Q, subnet: 0xFC, cost: 1
+recovered entry #4, Routing_Table_Entry: dst: U, next_hop: U, subnet: 0xFC, cost: 1
+recovered entry #5, Routing_Table_Entry: dst: I, next_hop: Y, subnet: 0xF8, cost: 3
+NodeQ added: Routing_Table_Entry: dst: I, next_hop: Z, subnet: 0xF8, cost: 4
+received routing msg: msg#15, time_to_live=9, type: ROUTING_MSG, dst: Y, path: A
+routing_msg_payload.length = 12 number of routing entries = 3
+recovered entry #0, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+received routing msg: msg#17, time_to_live=9, type: ROUTING_MSG, dst: Y, path: Z
+routing_msg_payload.length = 16 number of routing entries = 4
+recovered entry #0, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: Q, next_hop: Q, subnet: 0xFC, cost: 1
+NodeY added: Routing_Table_Entry: dst: Q, next_hop: Z, subnet: 0xFC, cost: 2
+ done_routing false
+ ###### msg_sent 41  msg_terminated 34 done_routing false ######
+received routing msg: msg#40, time_to_live=9, type: ROUTING_MSG, dst: A, path: I
+routing_msg_payload.length = 20 number of routing entries = 5
+recovered entry #0, Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: A, subnet: 0xFF, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: Z, next_hop: A, subnet: 0xFF, cost: 3
+recovered entry #4, Routing_Table_Entry: dst: E, next_hop: A, subnet: 0xFC, cost: 3
+received routing msg: msg#46, time_to_live=9, type: ROUTING_MSG, dst: U, path: Z
+routing_msg_payload.length = 24 number of routing entries = 6
+recovered entry #0, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: Q, next_hop: Q, subnet: 0xFC, cost: 1
+recovered entry #4, Routing_Table_Entry: dst: U, next_hop: U, subnet: 0xFC, cost: 1
+recovered entry #5, Routing_Table_Entry: dst: I, next_hop: Y, subnet: 0xF8, cost: 3
+NodeU added: Routing_Table_Entry: dst: I, next_hop: Z, subnet: 0xF8, cost: 4
+received routing msg: msg#48, time_to_live=9, type: ROUTING_MSG, dst: A, path: Y
+routing_msg_payload.length = 24 number of routing entries = 6
+recovered entry #0, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #3, Routing_Table_Entry: dst: I, next_hop: A, subnet: 0xF8, cost: 2
+recovered entry #4, Routing_Table_Entry: dst: E, next_hop: E, subnet: 0xFC, cost: 1
+recovered entry #5, Routing_Table_Entry: dst: Q, next_hop: Z, subnet: 0xFC, cost: 2
+NodeA added: Routing_Table_Entry: dst: Q, next_hop: Y, subnet: 0xFC, cost: 3
+received routing msg: msg#50, time_to_live=9, type: ROUTING_MSG, dst: I, path: A
+routing_msg_payload.length = 24 number of routing entries = 6
+recovered entry #0, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #3, Routing_Table_Entry: dst: Z, next_hop: Y, subnet: 0xFF, cost: 2
+recovered entry #4, Routing_Table_Entry: dst: E, next_hop: Y, subnet: 0xFC, cost: 2
+recovered entry #5, Routing_Table_Entry: dst: Q, next_hop: Y, subnet: 0xFC, cost: 3
+NodeI added: Routing_Table_Entry: dst: Q, next_hop: A, subnet: 0xFC, cost: 4
+received routing msg: msg#52, time_to_live=9, type: ROUTING_MSG, dst: E, path: Y
+routing_msg_payload.length = 24 number of routing entries = 6
+recovered entry #0, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #3, Routing_Table_Entry: dst: I, next_hop: A, subnet: 0xF8, cost: 2
+recovered entry #4, Routing_Table_Entry: dst: E, next_hop: E, subnet: 0xFC, cost: 1
+recovered entry #5, Routing_Table_Entry: dst: Q, next_hop: Z, subnet: 0xFC, cost: 2
+NodeE added: Routing_Table_Entry: dst: Q, next_hop: Y, subnet: 0xFC, cost: 3
+received routing msg: msg#51, time_to_live=9, type: ROUTING_MSG, dst: A, path: I
+routing_msg_payload.length = 24 number of routing entries = 6
+recovered entry #0, Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: A, subnet: 0xFF, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: Z, next_hop: A, subnet: 0xFF, cost: 3
+recovered entry #4, Routing_Table_Entry: dst: E, next_hop: A, subnet: 0xFC, cost: 3
+recovered entry #5, Routing_Table_Entry: dst: Q, next_hop: A, subnet: 0xFC, cost: 4
+received routing msg: msg#28, time_to_live=9, type: ROUTING_MSG, dst: Z, path: U
+routing_msg_payload.length = 20 number of routing entries = 5
+recovered entry #0, Routing_Table_Entry: dst: U, next_hop: U, subnet: 0xFC, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: Z, subnet: 0xFF, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: A, next_hop: Z, subnet: 0xFC, cost: 3
+recovered entry #4, Routing_Table_Entry: dst: Q, next_hop: Z, subnet: 0xFC, cost: 2
+received routing msg: msg#34, time_to_live=9, type: ROUTING_MSG, dst: Z, path: Q
+routing_msg_payload.length = 20 number of routing entries = 5
+recovered entry #0, Routing_Table_Entry: dst: Q, next_hop: Q, subnet: 0xFC, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: Z, subnet: 0xFF, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: A, next_hop: Z, subnet: 0xFC, cost: 3
+recovered entry #4, Routing_Table_Entry: dst: U, next_hop: Z, subnet: 0xFC, cost: 2
+received routing msg: msg#35, time_to_live=9, type: ROUTING_MSG, dst: Z, path: Y
+routing_msg_payload.length = 20 number of routing entries = 5
+recovered entry #0, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #3, Routing_Table_Entry: dst: I, next_hop: A, subnet: 0xF8, cost: 2
+recovered entry #4, Routing_Table_Entry: dst: E, next_hop: E, subnet: 0xFC, cost: 1
+NodeZ added: Routing_Table_Entry: dst: E, next_hop: Y, subnet: 0xFC, cost: 2
+received routing msg: msg#21, time_to_live=9, type: ROUTING_MSG, dst: Y, path: E
+routing_msg_payload.length = 16 number of routing entries = 4
+recovered entry #0, Routing_Table_Entry: dst: E, next_hop: E, subnet: 0xFC, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: Z, next_hop: Y, subnet: 0xFF, cost: 2
+received routing msg: msg#23, time_to_live=9, type: ROUTING_MSG, dst: Y, path: A
+routing_msg_payload.length = 16 number of routing entries = 4
+recovered entry #0, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #3, Routing_Table_Entry: dst: Z, next_hop: Y, subnet: 0xFF, cost: 2
+received routing msg: msg#30, time_to_live=9, type: ROUTING_MSG, dst: Y, path: Z
+routing_msg_payload.length = 20 number of routing entries = 5
+recovered entry #0, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: Q, next_hop: Q, subnet: 0xFC, cost: 1
+recovered entry #4, Routing_Table_Entry: dst: U, next_hop: U, subnet: 0xFC, cost: 1
+NodeY added: Routing_Table_Entry: dst: U, next_hop: Z, subnet: 0xFC, cost: 2
+ done_routing false
+ ###### msg_sent 53  msg_terminated 46 done_routing false ######
+received routing msg: msg#56, time_to_live=9, type: ROUTING_MSG, dst: Q, path: Z
+routing_msg_payload.length = 28 number of routing entries = 7
+recovered entry #0, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: Q, next_hop: Q, subnet: 0xFC, cost: 1
+recovered entry #4, Routing_Table_Entry: dst: U, next_hop: U, subnet: 0xFC, cost: 1
+recovered entry #5, Routing_Table_Entry: dst: I, next_hop: Y, subnet: 0xF8, cost: 3
+recovered entry #6, Routing_Table_Entry: dst: E, next_hop: Y, subnet: 0xFC, cost: 2
+NodeQ added: Routing_Table_Entry: dst: E, next_hop: Z, subnet: 0xFC, cost: 3
+received routing msg: msg#58, time_to_live=9, type: ROUTING_MSG, dst: A, path: Y
+routing_msg_payload.length = 28 number of routing entries = 7
+recovered entry #0, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #3, Routing_Table_Entry: dst: I, next_hop: A, subnet: 0xF8, cost: 2
+recovered entry #4, Routing_Table_Entry: dst: E, next_hop: E, subnet: 0xFC, cost: 1
+recovered entry #5, Routing_Table_Entry: dst: Q, next_hop: Z, subnet: 0xFC, cost: 2
+recovered entry #6, Routing_Table_Entry: dst: U, next_hop: Z, subnet: 0xFC, cost: 2
+NodeA added: Routing_Table_Entry: dst: U, next_hop: Y, subnet: 0xFC, cost: 3
+received routing msg: msg#60, time_to_live=9, type: ROUTING_MSG, dst: I, path: A
+routing_msg_payload.length = 28 number of routing entries = 7
+recovered entry #0, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #3, Routing_Table_Entry: dst: Z, next_hop: Y, subnet: 0xFF, cost: 2
+recovered entry #4, Routing_Table_Entry: dst: E, next_hop: Y, subnet: 0xFC, cost: 2
+recovered entry #5, Routing_Table_Entry: dst: Q, next_hop: Y, subnet: 0xFC, cost: 3
+recovered entry #6, Routing_Table_Entry: dst: U, next_hop: Y, subnet: 0xFC, cost: 3
+NodeI added: Routing_Table_Entry: dst: U, next_hop: A, subnet: 0xFC, cost: 4
+received routing msg: msg#62, time_to_live=9, type: ROUTING_MSG, dst: E, path: Y
+routing_msg_payload.length = 28 number of routing entries = 7
+recovered entry #0, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #3, Routing_Table_Entry: dst: I, next_hop: A, subnet: 0xF8, cost: 2
+recovered entry #4, Routing_Table_Entry: dst: E, next_hop: E, subnet: 0xFC, cost: 1
+recovered entry #5, Routing_Table_Entry: dst: Q, next_hop: Z, subnet: 0xFC, cost: 2
+recovered entry #6, Routing_Table_Entry: dst: U, next_hop: Z, subnet: 0xFC, cost: 2
+NodeE added: Routing_Table_Entry: dst: U, next_hop: Y, subnet: 0xFC, cost: 3
+received routing msg: msg#64, time_to_live=9, type: ROUTING_MSG, dst: U, path: Z
+routing_msg_payload.length = 28 number of routing entries = 7
+recovered entry #0, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: Q, next_hop: Q, subnet: 0xFC, cost: 1
+recovered entry #4, Routing_Table_Entry: dst: U, next_hop: U, subnet: 0xFC, cost: 1
+recovered entry #5, Routing_Table_Entry: dst: I, next_hop: Y, subnet: 0xF8, cost: 3
+recovered entry #6, Routing_Table_Entry: dst: E, next_hop: Y, subnet: 0xFC, cost: 2
+NodeU added: Routing_Table_Entry: dst: E, next_hop: Z, subnet: 0xFC, cost: 3
+received routing msg: msg#44, time_to_live=9, type: ROUTING_MSG, dst: Z, path: Q
+routing_msg_payload.length = 24 number of routing entries = 6
+recovered entry #0, Routing_Table_Entry: dst: Q, next_hop: Q, subnet: 0xFC, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: Z, subnet: 0xFF, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: A, next_hop: Z, subnet: 0xFC, cost: 3
+recovered entry #4, Routing_Table_Entry: dst: U, next_hop: Z, subnet: 0xFC, cost: 2
+recovered entry #5, Routing_Table_Entry: dst: I, next_hop: Z, subnet: 0xF8, cost: 4
+received routing msg: msg#45, time_to_live=9, type: ROUTING_MSG, dst: Z, path: Y
+routing_msg_payload.length = 24 number of routing entries = 6
+recovered entry #0, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #3, Routing_Table_Entry: dst: I, next_hop: A, subnet: 0xF8, cost: 2
+recovered entry #4, Routing_Table_Entry: dst: E, next_hop: E, subnet: 0xFC, cost: 1
+recovered entry #5, Routing_Table_Entry: dst: Q, next_hop: Z, subnet: 0xFC, cost: 2
+received routing msg: msg#47, time_to_live=9, type: ROUTING_MSG, dst: Z, path: U
+routing_msg_payload.length = 24 number of routing entries = 6
+recovered entry #0, Routing_Table_Entry: dst: U, next_hop: U, subnet: 0xFC, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: Z, subnet: 0xFF, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: A, next_hop: Z, subnet: 0xFC, cost: 3
+recovered entry #4, Routing_Table_Entry: dst: Q, next_hop: Z, subnet: 0xFC, cost: 2
+recovered entry #5, Routing_Table_Entry: dst: I, next_hop: Z, subnet: 0xF8, cost: 4
+received routing msg: msg#55, time_to_live=9, type: ROUTING_MSG, dst: Z, path: Y
+routing_msg_payload.length = 28 number of routing entries = 7
+recovered entry #0, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #3, Routing_Table_Entry: dst: I, next_hop: A, subnet: 0xF8, cost: 2
+recovered entry #4, Routing_Table_Entry: dst: E, next_hop: E, subnet: 0xFC, cost: 1
+recovered entry #5, Routing_Table_Entry: dst: Q, next_hop: Z, subnet: 0xFC, cost: 2
+recovered entry #6, Routing_Table_Entry: dst: U, next_hop: Z, subnet: 0xFC, cost: 2
+received routing msg: msg#57, time_to_live=9, type: ROUTING_MSG, dst: Z, path: Q
+routing_msg_payload.length = 28 number of routing entries = 7
+recovered entry #0, Routing_Table_Entry: dst: Q, next_hop: Q, subnet: 0xFC, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: Z, subnet: 0xFF, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: A, next_hop: Z, subnet: 0xFC, cost: 3
+recovered entry #4, Routing_Table_Entry: dst: U, next_hop: Z, subnet: 0xFC, cost: 2
+recovered entry #5, Routing_Table_Entry: dst: I, next_hop: Z, subnet: 0xF8, cost: 4
+recovered entry #6, Routing_Table_Entry: dst: E, next_hop: Z, subnet: 0xFC, cost: 3
+received routing msg: msg#65, time_to_live=9, type: ROUTING_MSG, dst: Z, path: U
+routing_msg_payload.length = 28 number of routing entries = 7
+recovered entry #0, Routing_Table_Entry: dst: U, next_hop: U, subnet: 0xFC, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: Z, subnet: 0xFF, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: A, next_hop: Z, subnet: 0xFC, cost: 3
+recovered entry #4, Routing_Table_Entry: dst: Q, next_hop: Z, subnet: 0xFC, cost: 2
+recovered entry #5, Routing_Table_Entry: dst: I, next_hop: Z, subnet: 0xF8, cost: 4
+recovered entry #6, Routing_Table_Entry: dst: E, next_hop: Z, subnet: 0xFC, cost: 3
+ done_routing true
+ ###### msg_sent 62  msg_terminated 57 done_routing true ######
+received routing msg: msg#32, time_to_live=9, type: ROUTING_MSG, dst: Y, path: E
+routing_msg_payload.length = 20 number of routing entries = 5
+recovered entry #0, Routing_Table_Entry: dst: E, next_hop: E, subnet: 0xFC, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: Z, next_hop: Y, subnet: 0xFF, cost: 2
+recovered entry #4, Routing_Table_Entry: dst: I, next_hop: Y, subnet: 0xF8, cost: 3
+received routing msg: msg#38, time_to_live=9, type: ROUTING_MSG, dst: Y, path: A
+routing_msg_payload.length = 20 number of routing entries = 5
+recovered entry #0, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #3, Routing_Table_Entry: dst: Z, next_hop: Y, subnet: 0xFF, cost: 2
+recovered entry #4, Routing_Table_Entry: dst: E, next_hop: Y, subnet: 0xFC, cost: 2
+received routing msg: msg#42, time_to_live=9, type: ROUTING_MSG, dst: Y, path: Z
+routing_msg_payload.length = 24 number of routing entries = 6
+recovered entry #0, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: Q, next_hop: Q, subnet: 0xFC, cost: 1
+recovered entry #4, Routing_Table_Entry: dst: U, next_hop: U, subnet: 0xFC, cost: 1
+recovered entry #5, Routing_Table_Entry: dst: I, next_hop: Y, subnet: 0xF8, cost: 3
+received routing msg: msg#49, time_to_live=9, type: ROUTING_MSG, dst: Y, path: A
+routing_msg_payload.length = 24 number of routing entries = 6
+recovered entry #0, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #3, Routing_Table_Entry: dst: Z, next_hop: Y, subnet: 0xFF, cost: 2
+recovered entry #4, Routing_Table_Entry: dst: E, next_hop: Y, subnet: 0xFC, cost: 2
+recovered entry #5, Routing_Table_Entry: dst: Q, next_hop: Y, subnet: 0xFC, cost: 3
+received routing msg: msg#53, time_to_live=9, type: ROUTING_MSG, dst: Y, path: E
+routing_msg_payload.length = 24 number of routing entries = 6
+recovered entry #0, Routing_Table_Entry: dst: E, next_hop: E, subnet: 0xFC, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: Z, next_hop: Y, subnet: 0xFF, cost: 2
+recovered entry #4, Routing_Table_Entry: dst: I, next_hop: Y, subnet: 0xF8, cost: 3
+recovered entry #5, Routing_Table_Entry: dst: Q, next_hop: Y, subnet: 0xFC, cost: 3
+received routing msg: msg#54, time_to_live=9, type: ROUTING_MSG, dst: Y, path: Z
+routing_msg_payload.length = 28 number of routing entries = 7
+recovered entry #0, Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: Q, next_hop: Q, subnet: 0xFC, cost: 1
+recovered entry #4, Routing_Table_Entry: dst: U, next_hop: U, subnet: 0xFC, cost: 1
+recovered entry #5, Routing_Table_Entry: dst: I, next_hop: Y, subnet: 0xF8, cost: 3
+recovered entry #6, Routing_Table_Entry: dst: E, next_hop: Y, subnet: 0xFC, cost: 2
+received routing msg: msg#59, time_to_live=9, type: ROUTING_MSG, dst: Y, path: A
+routing_msg_payload.length = 28 number of routing entries = 7
+recovered entry #0, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #3, Routing_Table_Entry: dst: Z, next_hop: Y, subnet: 0xFF, cost: 2
+recovered entry #4, Routing_Table_Entry: dst: E, next_hop: Y, subnet: 0xFC, cost: 2
+recovered entry #5, Routing_Table_Entry: dst: Q, next_hop: Y, subnet: 0xFC, cost: 3
+recovered entry #6, Routing_Table_Entry: dst: U, next_hop: Y, subnet: 0xFC, cost: 3
+received routing msg: msg#63, time_to_live=9, type: ROUTING_MSG, dst: Y, path: E
+routing_msg_payload.length = 28 number of routing entries = 7
+recovered entry #0, Routing_Table_Entry: dst: E, next_hop: E, subnet: 0xFC, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: Z, next_hop: Y, subnet: 0xFF, cost: 2
+recovered entry #4, Routing_Table_Entry: dst: I, next_hop: Y, subnet: 0xF8, cost: 3
+recovered entry #5, Routing_Table_Entry: dst: Q, next_hop: Y, subnet: 0xFC, cost: 3
+recovered entry #6, Routing_Table_Entry: dst: U, next_hop: Y, subnet: 0xFC, cost: 3
+received routing msg: msg#61, time_to_live=9, type: ROUTING_MSG, dst: A, path: I
+routing_msg_payload.length = 28 number of routing entries = 7
+recovered entry #0, Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 0
+recovered entry #1, Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+recovered entry #2, Routing_Table_Entry: dst: Y, next_hop: A, subnet: 0xFF, cost: 2
+recovered entry #3, Routing_Table_Entry: dst: Z, next_hop: A, subnet: 0xFF, cost: 3
+recovered entry #4, Routing_Table_Entry: dst: E, next_hop: A, subnet: 0xFC, cost: 3
+recovered entry #5, Routing_Table_Entry: dst: Q, next_hop: A, subnet: 0xFC, cost: 4
+recovered entry #6, Routing_Table_Entry: dst: U, next_hop: A, subnet: 0xFC, cost: 4
+ done_routing true
+ ###### msg_sent 66  msg_terminated 66 orphan_msg_cnt 0 ######
+###### All messages sent are received ######
+##################################################
+===================================================
+Roting Table for NodeA
+Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 0
+Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 1
+Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+Routing_Table_Entry: dst: Z, next_hop: Y, subnet: 0xFF, cost: 2
+Routing_Table_Entry: dst: E, next_hop: Y, subnet: 0xFC, cost: 2
+Routing_Table_Entry: dst: Q, next_hop: Y, subnet: 0xFC, cost: 3
+Routing_Table_Entry: dst: U, next_hop: Y, subnet: 0xFC, cost: 3
+===================================================
+===================================================
+Roting Table for NodeE
+Routing_Table_Entry: dst: E, next_hop: E, subnet: 0xFC, cost: 0
+Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+Routing_Table_Entry: dst: Z, next_hop: Y, subnet: 0xFF, cost: 2
+Routing_Table_Entry: dst: I, next_hop: Y, subnet: 0xF8, cost: 3
+Routing_Table_Entry: dst: Q, next_hop: Y, subnet: 0xFC, cost: 3
+Routing_Table_Entry: dst: U, next_hop: Y, subnet: 0xFC, cost: 3
+===================================================
+===================================================
+Roting Table for NodeI
+Routing_Table_Entry: dst: I, next_hop: I, subnet: 0xF8, cost: 0
+Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+Routing_Table_Entry: dst: Y, next_hop: A, subnet: 0xFF, cost: 2
+Routing_Table_Entry: dst: Z, next_hop: A, subnet: 0xFF, cost: 3
+Routing_Table_Entry: dst: E, next_hop: A, subnet: 0xFC, cost: 3
+Routing_Table_Entry: dst: Q, next_hop: A, subnet: 0xFC, cost: 4
+Routing_Table_Entry: dst: U, next_hop: A, subnet: 0xFC, cost: 4
+===================================================
+===================================================
+Roting Table for NodeQ
+Routing_Table_Entry: dst: Q, next_hop: Q, subnet: 0xFC, cost: 0
+Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+Routing_Table_Entry: dst: Y, next_hop: Z, subnet: 0xFF, cost: 2
+Routing_Table_Entry: dst: A, next_hop: Z, subnet: 0xFC, cost: 3
+Routing_Table_Entry: dst: U, next_hop: Z, subnet: 0xFC, cost: 2
+Routing_Table_Entry: dst: I, next_hop: Z, subnet: 0xF8, cost: 4
+Routing_Table_Entry: dst: E, next_hop: Z, subnet: 0xFC, cost: 3
+===================================================
+===================================================
+Roting Table for NodeU
+Routing_Table_Entry: dst: U, next_hop: U, subnet: 0xFC, cost: 0
+Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+Routing_Table_Entry: dst: Y, next_hop: Z, subnet: 0xFF, cost: 2
+Routing_Table_Entry: dst: A, next_hop: Z, subnet: 0xFC, cost: 3
+Routing_Table_Entry: dst: Q, next_hop: Z, subnet: 0xFC, cost: 2
+Routing_Table_Entry: dst: I, next_hop: Z, subnet: 0xF8, cost: 4
+Routing_Table_Entry: dst: E, next_hop: Z, subnet: 0xFC, cost: 3
+===================================================
+===================================================
+Roting Table for NodeY
+Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 0
+Routing_Table_Entry: dst: A, next_hop: A, subnet: 0xFC, cost: 1
+Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 1
+Routing_Table_Entry: dst: I, next_hop: A, subnet: 0xF8, cost: 2
+Routing_Table_Entry: dst: E, next_hop: E, subnet: 0xFC, cost: 1
+Routing_Table_Entry: dst: Q, next_hop: Z, subnet: 0xFC, cost: 2
+Routing_Table_Entry: dst: U, next_hop: Z, subnet: 0xFC, cost: 2
+===================================================
+===================================================
+Roting Table for NodeZ
+Routing_Table_Entry: dst: Z, next_hop: Z, subnet: 0xFF, cost: 0
+Routing_Table_Entry: dst: Y, next_hop: Y, subnet: 0xFF, cost: 1
+Routing_Table_Entry: dst: A, next_hop: Y, subnet: 0xFC, cost: 2
+Routing_Table_Entry: dst: Q, next_hop: Q, subnet: 0xFC, cost: 1
+Routing_Table_Entry: dst: U, next_hop: U, subnet: 0xFC, cost: 1
+Routing_Table_Entry: dst: I, next_hop: Y, subnet: 0xF8, cost: 3
+Routing_Table_Entry: dst: E, next_hop: Y, subnet: 0xFC, cost: 2
+===================================================
+##################################################
+next hop is Node I
+Node L message sent: msg#66, time_to_live=10, type: NORMAL_MSG, dst: E, path: L
+next hop is Node A
+Node I message sent: msg#67, time_to_live=10, type: NORMAL_MSG, dst: S, path: I
+next hop is Node E
+Node H message sent: msg#68, time_to_live=10, type: NORMAL_MSG, dst: A, path: H
+next hop is Node M
+Node N message sent: msg#69, time_to_live=10, type: NORMAL_MSG, dst: M, path: N
+next hop is Node Y
+Node E message sent: msg#70, time_to_live=10, type: NORMAL_MSG, dst: U, path: E
+msg#69, time_to_live=9, type: NORMAL_MSG, dst: M, path: N is terminated at Node M reached its destination
+next hop is Node E
+Node F message sent: msg#71, time_to_live=10, type: NORMAL_MSG, dst: B, path: F
+next hop is Node U
+Node V message sent: msg#72, time_to_live=10, type: NORMAL_MSG, dst: L, path: V
+next hop is Node Q
+Node S message sent: msg#73, time_to_live=10, type: NORMAL_MSG, dst: K, path: S
+next hop is Node Z
+Node U message sent: msg#74, time_to_live=10, type: NORMAL_MSG, dst: B, path: U
+next hop is Node K
+Node O message sent: msg#75, time_to_live=10, type: NORMAL_MSG, dst: K, path: O
+msg#75, time_to_live=9, type: NORMAL_MSG, dst: K, path: O is terminated at Node K reached its destination
+next hop is Node U
+Node V message sent: msg#76, time_to_live=10, type: NORMAL_MSG, dst: D, path: V
+next hop is Node I
+Node J message sent: msg#77, time_to_live=10, type: NORMAL_MSG, dst: V, path: J
+next hop is Node Z
+Node Q message sent: msg#78, time_to_live=10, type: NORMAL_MSG, dst: F, path: Q
+next hop is Node A
+Node D message sent: msg#79, time_to_live=10, type: NORMAL_MSG, dst: V, path: D
+next hop is Node I
+Node N message sent: msg#80, time_to_live=10, type: NORMAL_MSG, dst: V, path: N
+next hop is Node I
+Node L message sent: msg#81, time_to_live=10, type: NORMAL_MSG, dst: E, path: L
+next hop is Node L
+Node N message sent: msg#82, time_to_live=10, type: NORMAL_MSG, dst: L, path: N
+msg#82, time_to_live=9, type: NORMAL_MSG, dst: L, path: N is terminated at Node L reached its destination
+next hop is Node U
+Node X message sent: msg#83, time_to_live=10, type: NORMAL_MSG, dst: K, path: X
+next hop is Node Y
+Node E message sent: msg#84, time_to_live=10, type: NORMAL_MSG, dst: O, path: E
+next hop is Node A
+Node D message sent: msg#85, time_to_live=10, type: NORMAL_MSG, dst: R, path: D
+next hop is Node S
+Node R message sent: msg#86, time_to_live=10, type: NORMAL_MSG, dst: S, path: R
+msg#86, time_to_live=9, type: NORMAL_MSG, dst: S, path: R is terminated at Node S reached its destination
+next hop is Node Y
+Node A message sent: msg#87, time_to_live=10, type: NORMAL_MSG, dst: R, path: A
+next hop is Node D
+Node A message sent: msg#88, time_to_live=10, type: NORMAL_MSG, dst: D, path: A
+msg#88, time_to_live=9, type: NORMAL_MSG, dst: D, path: A is terminated at Node D reached its destination
+next hop is Node I
+Node M message sent: msg#89, time_to_live=10, type: NORMAL_MSG, dst: H, path: M
+next hop is Node A
+Node D message sent: msg#90, time_to_live=10, type: NORMAL_MSG, dst: L, path: D
+next hop is Node A
+Node B message sent: msg#91, time_to_live=10, type: NORMAL_MSG, dst: T, path: B
+next hop is Node E
+Node G message sent: msg#92, time_to_live=10, type: NORMAL_MSG, dst: E, path: G
+next hop is Node J
+Node M message sent: msg#93, time_to_live=10, type: NORMAL_MSG, dst: J, path: M
+msg#93, time_to_live=9, type: NORMAL_MSG, dst: J, path: M is terminated at Node J reached its destination
+next hop is Node I
+Node L message sent: msg#94, time_to_live=10, type: NORMAL_MSG, dst: I, path: L
+next hop is Node L
+Node M message sent: msg#95, time_to_live=10, type: NORMAL_MSG, dst: L, path: M
+msg#95, time_to_live=9, type: NORMAL_MSG, dst: L, path: M is terminated at Node L reached its destination
+next hop is Node I
+Node O message sent: msg#96, time_to_live=10, type: NORMAL_MSG, dst: G, path: O
+next hop is Node I
+Node O message sent: msg#97, time_to_live=10, type: NORMAL_MSG, dst: X, path: O
+next hop is Node U
+Node V message sent: msg#98, time_to_live=10, type: NORMAL_MSG, dst: O, path: V
+next hop is Node U
+Node W message sent: msg#99, time_to_live=10, type: NORMAL_MSG, dst: E, path: W
+next hop is Node A
+Node I message sent: msg#100, time_to_live=10, type: NORMAL_MSG, dst: V, path: I
+next hop is Node Z
+Node Q message sent: msg#101, time_to_live=10, type: NORMAL_MSG, dst: Y, path: Q
+next hop is Node Z
+msg#68, time_to_live=9, type: NORMAL_MSG, dst: A, path: EH is relayed at Node E to Y
+Node Q message sent: msg#102, time_to_live=10, type: NORMAL_MSG, dst: X, path: Q
+next hop is Node Y
+Node Z message sent: msg#103, time_to_live=10, type: NORMAL_MSG, dst: I, path: Z
+next hop is Node I
+Node N message sent: msg#104, time_to_live=10, type: NORMAL_MSG, dst: F, path: N
+next hop is Node Z
+Node U message sent: msg#105, time_to_live=10, type: NORMAL_MSG, dst: D, path: U
+next hop is Node Q
+Node S message sent: msg#106, time_to_live=10, type: NORMAL_MSG, dst: X, path: S
+next hop is Node I
+Node O message sent: msg#107, time_to_live=10, type: NORMAL_MSG, dst: G, path: O
+next hop is Node A
+Node Y message sent: msg#108, time_to_live=10, type: NORMAL_MSG, dst: A, path: Y
+next hop is Node Z
+Node Q message sent: msg#109, time_to_live=10, type: NORMAL_MSG, dst: W, path: Q
+next hop is Node Z
+Node U message sent: msg#110, time_to_live=10, type: NORMAL_MSG, dst: D, path: U
+next hop is Node W
+msg#111, time_to_live=9, type: NORMAL_MSG, dst: W, path: U is terminated at Node W reached its destination
+Node U message sent: msg#111, time_to_live=10, type: NORMAL_MSG, dst: W, path: U
+next hop is Node E
+Node G message sent: msg#112, time_to_live=10, type: NORMAL_MSG, dst: P, path: G
+next hop is Node I
+Node K message sent: msg#113, time_to_live=10, type: NORMAL_MSG, dst: B, path: K
+next hop is Node Y
+Node Z message sent: msg#114, time_to_live=10, type: NORMAL_MSG, dst: K, path: Z
+next hop is Node E
+Node H message sent: msg#115, time_to_live=10, type: NORMAL_MSG, dst: W, path: H
+next hop is Node E
+Node H message sent: msg#116, time_to_live=10, type: NORMAL_MSG, dst: X, path: H
+next hop is Node E
+Node F message sent: msg#117, time_to_live=10, type: NORMAL_MSG, dst: M, path: F
+next hop is Node I
+Node K message sent: msg#118, time_to_live=10, type: NORMAL_MSG, dst: C, path: K
+next hop is Node E
+Node Y message sent: msg#119, time_to_live=10, type: NORMAL_MSG, dst: F, path: Y
+next hop is Node X
+msg#120, time_to_live=9, type: NORMAL_MSG, dst: X, path: V is terminated at Node X reached its destination
+Node V message sent: msg#120, time_to_live=10, type: NORMAL_MSG, dst: X, path: V
+next hop is Node B
+msg#121, time_to_live=9, type: NORMAL_MSG, dst: B, path: C is terminated at Node B reached its destination
+Node C message sent: msg#121, time_to_live=10, type: NORMAL_MSG, dst: B, path: C
+next hop is Node Q
+Node T message sent: msg#122, time_to_live=10, type: NORMAL_MSG, dst: I, path: T
+next hop is Node U
+Node V message sent: msg#123, time_to_live=10, type: NORMAL_MSG, dst: Y, path: V
+next hop is Node E
+Node G message sent: msg#124, time_to_live=10, type: NORMAL_MSG, dst: D, path: G
+next hop is Node P
+Node K message sent: msg#125, time_to_live=10, type: NORMAL_MSG, dst: P, path: K
+msg#125, time_to_live=9, type: NORMAL_MSG, dst: P, path: K is terminated at Node P reached its destination
+next hop is Node Q
+Node Z message sent: msg#126, time_to_live=10, type: NORMAL_MSG, dst: T, path: Z
+next hop is Node Z
+Node U message sent: msg#127, time_to_live=10, type: NORMAL_MSG, dst: G, path: U
+next hop is Node E
+Node H message sent: msg#128, time_to_live=10, type: NORMAL_MSG, dst: S, path: H
+next hop is Node Q
+Node S message sent: msg#129, time_to_live=10, type: NORMAL_MSG, dst: M, path: S
+next hop is Node Q
+Node T message sent: msg#130, time_to_live=10, type: NORMAL_MSG, dst: B, path: T
+next hop is Node I
+Node P message sent: msg#131, time_to_live=10, type: NORMAL_MSG, dst: A, path: P
+next hop is Node A
+Node I message sent: msg#132, time_to_live=10, type: NORMAL_MSG, dst: E, path: I
+next hop is Node E
+Node H message sent: msg#133, time_to_live=10, type: NORMAL_MSG, dst: E, path: H
+next hop is Node I
+Node N message sent: msg#134, time_to_live=10, type: NORMAL_MSG, dst: G, path: N
+next hop is Node Z
+Node U message sent: msg#135, time_to_live=10, type: NORMAL_MSG, dst: K, path: U
+next hop is Node E
+Node G message sent: msg#136, time_to_live=10, type: NORMAL_MSG, dst: B, path: G
+next hop is Node I
+Node L message sent: msg#137, time_to_live=10, type: NORMAL_MSG, dst: I, path: L
+next hop is Node I
+Node A message sent: msg#138, time_to_live=10, type: NORMAL_MSG, dst: J, path: A
+next hop is Node U
+Node V message sent: msg#139, time_to_live=10, type: NORMAL_MSG, dst: Z, path: V
+next hop is Node I
+Node K message sent: msg#140, time_to_live=10, type: NORMAL_MSG, dst: W, path: K
+next hop is Node A
+Node C message sent: msg#141, time_to_live=10, type: NORMAL_MSG, dst: Q, path: C
+next hop is Node E
+Node H message sent: msg#142, time_to_live=10, type: NORMAL_MSG, dst: J, path: H
+next hop is Node E
+Node H message sent: msg#143, time_to_live=10, type: NORMAL_MSG, dst: Q, path: H
+next hop is Node A
+Node C message sent: msg#144, time_to_live=10, type: NORMAL_MSG, dst: J, path: C
+next hop is Node Q
+Node S message sent: msg#145, time_to_live=10, type: NORMAL_MSG, dst: O, path: S
+next hop is Node K
+Node N message sent: msg#146, time_to_live=10, type: NORMAL_MSG, dst: K, path: N
+next hop is Node E
+Node G message sent: msg#147, time_to_live=10, type: NORMAL_MSG, dst: R, path: G
+msg#146, time_to_live=9, type: NORMAL_MSG, dst: K, path: N is terminated at Node K reached its destination
+next hop is Node I
+Node M message sent: msg#148, time_to_live=10, type: NORMAL_MSG, dst: Z, path: M
+next hop is Node I
+Node K message sent: msg#149, time_to_live=10, type: NORMAL_MSG, dst: Q, path: K
+next hop is Node Z
+Node Q message sent: msg#150, time_to_live=10, type: NORMAL_MSG, dst: W, path: Q
+next hop is Node I
+Node J message sent: msg#151, time_to_live=10, type: NORMAL_MSG, dst: B, path: J
+next hop is Node A
+Node Y message sent: msg#152, time_to_live=10, type: NORMAL_MSG, dst: C, path: Y
+next hop is Node A
+Node B message sent: msg#153, time_to_live=10, type: NORMAL_MSG, dst: L, path: B
+next hop is Node I
+Node O message sent: msg#154, time_to_live=10, type: NORMAL_MSG, dst: S, path: O
+next hop is Node I
+Node J message sent: msg#155, time_to_live=10, type: NORMAL_MSG, dst: W, path: J
+next hop is Node I
+Node M message sent: msg#156, time_to_live=10, type: NORMAL_MSG, dst: Q, path: M
+next hop is Node M
+Node L message sent: msg#157, time_to_live=10, type: NORMAL_MSG, dst: M, path: L
+next hop is Node E
+msg#157, time_to_live=9, type: NORMAL_MSG, dst: M, path: L is terminated at Node M reached its destination
+Node H message sent: msg#158, time_to_live=10, type: NORMAL_MSG, dst: T, path: H
+next hop is Node I
+Node N message sent: msg#159, time_to_live=10, type: NORMAL_MSG, dst: G, path: N
+next hop is Node I
+Node M message sent: msg#160, time_to_live=10, type: NORMAL_MSG, dst: X, path: M
+next hop is Node Q
+Node R message sent: msg#161, time_to_live=10, type: NORMAL_MSG, dst: N, path: R
+next hop is Node E
+Node F message sent: msg#162, time_to_live=10, type: NORMAL_MSG, dst: V, path: F
+next hop is Node A
+Node D message sent: msg#163, time_to_live=10, type: NORMAL_MSG, dst: S, path: D
+next hop is Node A
+Node D message sent: msg#164, time_to_live=10, type: NORMAL_MSG, dst: S, path: D
+next hop is Node Q
+Node R message sent: msg#165, time_to_live=10, type: NORMAL_MSG, dst: O, path: R
+##################################################
+##################################################
+###### Check that all messages sent are received ######
+ ###### msg_sent 166  msg_terminated 79 done_routing false ######
+msg#67, time_to_live=9, type: NORMAL_MSG, dst: S, path: AI is relayed at Node A to Y
+msg#70, time_to_live=9, type: NORMAL_MSG, dst: U, path: YE is relayed at Node Y to Z
+msg#73, time_to_live=9, type: NORMAL_MSG, dst: K, path: QS is relayed at Node Q to Z
+msg#71, time_to_live=9, type: NORMAL_MSG, dst: B, path: EF is relayed at Node E to Y
+msg#92, time_to_live=9, type: NORMAL_MSG, dst: E, path: G is terminated at Node E reached its destination
+msg#79, time_to_live=9, type: NORMAL_MSG, dst: V, path: AD is relayed at Node A to Y
+msg#66, time_to_live=9, type: NORMAL_MSG, dst: E, path: IL is relayed at Node I to A
+msg#112, time_to_live=9, type: NORMAL_MSG, dst: P, path: EG is relayed at Node E to Y
+msg#72, time_to_live=9, type: NORMAL_MSG, dst: L, path: UV is relayed at Node U to Z
+msg#74, time_to_live=9, type: NORMAL_MSG, dst: B, path: ZU is relayed at Node Z to Y
+msg#76, time_to_live=9, type: NORMAL_MSG, dst: D, path: UV is relayed at Node U to Z
+msg#83, time_to_live=9, type: NORMAL_MSG, dst: K, path: UX is relayed at Node U to Z
+msg#115, time_to_live=9, type: NORMAL_MSG, dst: W, path: EH is relayed at Node E to Y
+msg#84, time_to_live=9, type: NORMAL_MSG, dst: O, path: YE is relayed at Node Y to A
+ done_routing true
+ ###### msg_sent 166  msg_terminated 80 done_routing true ######
+msg#85, time_to_live=9, type: NORMAL_MSG, dst: R, path: AD is relayed at Node A to Y
+msg#106, time_to_live=9, type: NORMAL_MSG, dst: X, path: QS is relayed at Node Q to Z
+msg#122, time_to_live=9, type: NORMAL_MSG, dst: I, path: QT is relayed at Node Q to Z
+msg#78, time_to_live=9, type: NORMAL_MSG, dst: F, path: ZQ is relayed at Node Z to Y
+msg#98, time_to_live=9, type: NORMAL_MSG, dst: O, path: UV is relayed at Node U to Z
+msg#90, time_to_live=9, type: NORMAL_MSG, dst: L, path: AD is relayed at Node A to I
+msg#99, time_to_live=9, type: NORMAL_MSG, dst: E, path: UW is relayed at Node U to Z
+msg#77, time_to_live=9, type: NORMAL_MSG, dst: V, path: IJ is relayed at Node I to A
+msg#87, time_to_live=9, type: NORMAL_MSG, dst: R, path: YA is relayed at Node Y to Z
+msg#116, time_to_live=9, type: NORMAL_MSG, dst: X, path: EH is relayed at Node E to Y
+msg#126, time_to_live=9, type: NORMAL_MSG, dst: T, path: QZ is relayed at Node Q to T
+msg#126, time_to_live=8, type: NORMAL_MSG, dst: T, path: QZ is terminated at Node T reached its destination
+msg#129, time_to_live=9, type: NORMAL_MSG, dst: M, path: QS is relayed at Node Q to Z
+msg#101, time_to_live=9, type: NORMAL_MSG, dst: Y, path: ZQ is relayed at Node Z to Y
+msg#117, time_to_live=9, type: NORMAL_MSG, dst: M, path: EF is relayed at Node E to Y
+msg#68, time_to_live=8, type: NORMAL_MSG, dst: A, path: YEH is relayed at Node Y to A
+ done_routing true
+ ###### msg_sent 166  msg_terminated 81 done_routing true ######
+msg#91, time_to_live=9, type: NORMAL_MSG, dst: T, path: AB is relayed at Node A to Y
+msg#102, time_to_live=9, type: NORMAL_MSG, dst: X, path: ZQ is relayed at Node Z to U
+msg#80, time_to_live=9, type: NORMAL_MSG, dst: V, path: IN is relayed at Node I to A
+msg#123, time_to_live=9, type: NORMAL_MSG, dst: Y, path: UV is relayed at Node U to Z
+msg#81, time_to_live=9, type: NORMAL_MSG, dst: E, path: IL is relayed at Node I to A
+msg#139, time_to_live=9, type: NORMAL_MSG, dst: Z, path: UV is relayed at Node U to Z
+msg#130, time_to_live=9, type: NORMAL_MSG, dst: B, path: QT is relayed at Node Q to Z
+msg#145, time_to_live=9, type: NORMAL_MSG, dst: O, path: QS is relayed at Node Q to Z
+msg#89, time_to_live=9, type: NORMAL_MSG, dst: H, path: IM is relayed at Node I to A
+msg#94, time_to_live=9, type: NORMAL_MSG, dst: I, path: L is terminated at Node I reached its destination
+msg#105, time_to_live=9, type: NORMAL_MSG, dst: D, path: ZU is relayed at Node Z to Y
+msg#100, time_to_live=9, type: NORMAL_MSG, dst: V, path: AI is relayed at Node A to Y
+msg#108, time_to_live=9, type: NORMAL_MSG, dst: A, path: Y is terminated at Node A reached its destination
+msg#103, time_to_live=9, type: NORMAL_MSG, dst: I, path: YZ is relayed at Node Y to A
+msg#132, time_to_live=9, type: NORMAL_MSG, dst: E, path: AI is relayed at Node A to Y
+msg#114, time_to_live=9, type: NORMAL_MSG, dst: K, path: YZ is relayed at Node Y to A
+msg#119, time_to_live=9, type: NORMAL_MSG, dst: F, path: EY is relayed at Node E to F
+msg#119, time_to_live=8, type: NORMAL_MSG, dst: F, path: EY is terminated at Node F reached its destination
+msg#102, time_to_live=8, type: NORMAL_MSG, dst: X, path: UZQ is relayed at Node U to X
+msg#102, time_to_live=7, type: NORMAL_MSG, dst: X, path: UZQ is terminated at Node X reached its destination
+ done_routing true
+ ###### msg_sent 166  msg_terminated 85 done_routing true ######
+msg#124, time_to_live=9, type: NORMAL_MSG, dst: D, path: EG is relayed at Node E to Y
+msg#141, time_to_live=9, type: NORMAL_MSG, dst: Q, path: AC is relayed at Node A to Y
+msg#144, time_to_live=9, type: NORMAL_MSG, dst: J, path: AC is relayed at Node A to I
+msg#96, time_to_live=9, type: NORMAL_MSG, dst: G, path: IO is relayed at Node I to A
+msg#161, time_to_live=9, type: NORMAL_MSG, dst: N, path: QR is relayed at Node Q to Z
+msg#67, time_to_live=8, type: NORMAL_MSG, dst: S, path: YAI is relayed at Node Y to Z
+msg#109, time_to_live=9, type: NORMAL_MSG, dst: W, path: ZQ is relayed at Node Z to U
+msg#165, time_to_live=9, type: NORMAL_MSG, dst: O, path: QR is relayed at Node Q to Z
+msg#128, time_to_live=9, type: NORMAL_MSG, dst: S, path: EH is relayed at Node E to Y
+msg#133, time_to_live=9, type: NORMAL_MSG, dst: E, path: H is terminated at Node E reached its destination
+ done_routing true
+ ###### msg_sent 166  msg_terminated 86 done_routing true ######
+msg#110, time_to_live=9, type: NORMAL_MSG, dst: D, path: ZU is relayed at Node Z to Y
+msg#97, time_to_live=9, type: NORMAL_MSG, dst: X, path: IO is relayed at Node I to A
+msg#152, time_to_live=9, type: NORMAL_MSG, dst: C, path: AY is relayed at Node A to C
+msg#152, time_to_live=8, type: NORMAL_MSG, dst: C, path: AY is terminated at Node C reached its destination
+msg#109, time_to_live=8, type: NORMAL_MSG, dst: W, path: UZQ is relayed at Node U to W
+msg#109, time_to_live=7, type: NORMAL_MSG, dst: W, path: UZQ is terminated at Node W reached its destination
+msg#136, time_to_live=9, type: NORMAL_MSG, dst: B, path: EG is relayed at Node E to Y
+msg#71, time_to_live=8, type: NORMAL_MSG, dst: B, path: YEF is relayed at Node Y to A
+msg#142, time_to_live=9, type: NORMAL_MSG, dst: J, path: EH is relayed at Node E to Y
+msg#79, time_to_live=8, type: NORMAL_MSG, dst: V, path: YAD is relayed at Node Y to Z
+msg#153, time_to_live=9, type: NORMAL_MSG, dst: L, path: AB is relayed at Node A to I
+msg#112, time_to_live=8, type: NORMAL_MSG, dst: P, path: YEG is relayed at Node Y to A
+msg#163, time_to_live=9, type: NORMAL_MSG, dst: S, path: AD is relayed at Node A to Y
+msg#74, time_to_live=8, type: NORMAL_MSG, dst: B, path: YZU is relayed at Node Y to A
+msg#104, time_to_live=9, type: NORMAL_MSG, dst: F, path: IN is relayed at Node I to A
+msg#127, time_to_live=9, type: NORMAL_MSG, dst: G, path: ZU is relayed at Node Z to Y
+ done_routing true
+ ###### msg_sent 166  msg_terminated 88 done_routing true ######
+msg#135, time_to_live=9, type: NORMAL_MSG, dst: K, path: ZU is relayed at Node Z to Y
+msg#143, time_to_live=9, type: NORMAL_MSG, dst: Q, path: EH is relayed at Node E to Y
+msg#164, time_to_live=9, type: NORMAL_MSG, dst: S, path: AD is relayed at Node A to Y
+msg#115, time_to_live=8, type: NORMAL_MSG, dst: W, path: YEH is relayed at Node Y to Z
+msg#107, time_to_live=9, type: NORMAL_MSG, dst: G, path: IO is relayed at Node I to A
+msg#66, time_to_live=8, type: NORMAL_MSG, dst: E, path: AIL is relayed at Node A to Y
+msg#113, time_to_live=9, type: NORMAL_MSG, dst: B, path: IK is relayed at Node I to A
+msg#85, time_to_live=8, type: NORMAL_MSG, dst: R, path: YAD is relayed at Node Y to Z
+msg#147, time_to_live=9, type: NORMAL_MSG, dst: R, path: EG is relayed at Node E to Y
+msg#84, time_to_live=8, type: NORMAL_MSG, dst: O, path: AYE is relayed at Node A to I
+msg#150, time_to_live=9, type: NORMAL_MSG, dst: W, path: ZQ is relayed at Node Z to U
+msg#118, time_to_live=9, type: NORMAL_MSG, dst: C, path: IK is relayed at Node I to A
+ done_routing true
+ ###### msg_sent 166  msg_terminated 88 done_routing true ######
+msg#77, time_to_live=8, type: NORMAL_MSG, dst: V, path: AIJ is relayed at Node A to Y
+msg#68, time_to_live=7, type: NORMAL_MSG, dst: A, path: YEH is terminated at Node A reached its destination
+msg#150, time_to_live=8, type: NORMAL_MSG, dst: W, path: UZQ is relayed at Node U to W
+msg#150, time_to_live=7, type: NORMAL_MSG, dst: W, path: UZQ is terminated at Node W reached its destination
+msg#158, time_to_live=9, type: NORMAL_MSG, dst: T, path: EH is relayed at Node E to Y
+msg#78, time_to_live=8, type: NORMAL_MSG, dst: F, path: YZQ is relayed at Node Y to E
+msg#162, time_to_live=9, type: NORMAL_MSG, dst: V, path: EF is relayed at Node E to Y
+msg#78, time_to_live=7, type: NORMAL_MSG, dst: F, path: EYZQ is relayed at Node E to F
+msg#78, time_to_live=6, type: NORMAL_MSG, dst: F, path: EYZQ is terminated at Node F reached its destination
+msg#131, time_to_live=9, type: NORMAL_MSG, dst: A, path: IP is relayed at Node I to A
+msg#80, time_to_live=8, type: NORMAL_MSG, dst: V, path: AIN is relayed at Node A to Y
+msg#70, time_to_live=8, type: NORMAL_MSG, dst: U, path: ZYE is relayed at Node Z to U
+msg#70, time_to_live=7, type: NORMAL_MSG, dst: U, path: ZYE is terminated at Node U reached its destination
+msg#81, time_to_live=8, type: NORMAL_MSG, dst: E, path: AIL is relayed at Node A to Y
+msg#116, time_to_live=8, type: NORMAL_MSG, dst: X, path: YEH is relayed at Node Y to Z
+msg#101, time_to_live=8, type: NORMAL_MSG, dst: Y, path: ZQ is terminated at Node Y reached its destination
+ done_routing true
+ ###### msg_sent 166  msg_terminated 93 done_routing true ######
+msg#134, time_to_live=9, type: NORMAL_MSG, dst: G, path: IN is relayed at Node I to A
+msg#137, time_to_live=9, type: NORMAL_MSG, dst: I, path: L is terminated at Node I reached its destination
+msg#73, time_to_live=8, type: NORMAL_MSG, dst: K, path: ZQS is relayed at Node Z to Y
+msg#117, time_to_live=8, type: NORMAL_MSG, dst: M, path: YEF is relayed at Node Y to A
+msg#138, time_to_live=9, type: NORMAL_MSG, dst: J, path: IA is relayed at Node I to J
+msg#138, time_to_live=8, type: NORMAL_MSG, dst: J, path: IA is terminated at Node J reached its destination
+msg#72, time_to_live=8, type: NORMAL_MSG, dst: L, path: ZUV is relayed at Node Z to Y
+msg#91, time_to_live=8, type: NORMAL_MSG, dst: T, path: YAB is relayed at Node Y to Z
+msg#89, time_to_live=8, type: NORMAL_MSG, dst: H, path: AIM is relayed at Node A to Y
+msg#103, time_to_live=8, type: NORMAL_MSG, dst: I, path: AYZ is relayed at Node A to I
+msg#140, time_to_live=9, type: NORMAL_MSG, dst: W, path: IK is relayed at Node I to A
+msg#105, time_to_live=8, type: NORMAL_MSG, dst: D, path: YZU is relayed at Node Y to A
+msg#76, time_to_live=8, type: NORMAL_MSG, dst: D, path: ZUV is relayed at Node Z to Y
+ done_routing true
+ ###### msg_sent 166  msg_terminated 95 done_routing true ######
+msg#83, time_to_live=8, type: NORMAL_MSG, dst: K, path: ZUX is relayed at Node Z to Y
+msg#148, time_to_live=9, type: NORMAL_MSG, dst: Z, path: IM is relayed at Node I to A
+msg#114, time_to_live=8, type: NORMAL_MSG, dst: K, path: AYZ is relayed at Node A to I
+msg#106, time_to_live=8, type: NORMAL_MSG, dst: X, path: ZQS is relayed at Node Z to U
+msg#149, time_to_live=9, type: NORMAL_MSG, dst: Q, path: IK is relayed at Node I to A
+msg#100, time_to_live=8, type: NORMAL_MSG, dst: V, path: YAI is relayed at Node Y to Z
+msg#122, time_to_live=8, type: NORMAL_MSG, dst: I, path: ZQT is relayed at Node Z to Y
+msg#132, time_to_live=8, type: NORMAL_MSG, dst: E, path: YAI is relayed at Node Y to E
+msg#132, time_to_live=7, type: NORMAL_MSG, dst: E, path: YAI is terminated at Node E reached its destination
+ done_routing true
+ ###### msg_sent 166  msg_terminated 96 done_routing true ######
+msg#98, time_to_live=8, type: NORMAL_MSG, dst: O, path: ZUV is relayed at Node Z to Y
+msg#124, time_to_live=8, type: NORMAL_MSG, dst: D, path: YEG is relayed at Node Y to A
+msg#96, time_to_live=8, type: NORMAL_MSG, dst: G, path: AIO is relayed at Node A to Y
+msg#97, time_to_live=8, type: NORMAL_MSG, dst: X, path: AIO is relayed at Node A to Y
+msg#106, time_to_live=7, type: NORMAL_MSG, dst: X, path: UZQS is relayed at Node U to X
+msg#106, time_to_live=6, type: NORMAL_MSG, dst: X, path: UZQS is terminated at Node X reached its destination
+msg#151, time_to_live=9, type: NORMAL_MSG, dst: B, path: IJ is relayed at Node I to A
+msg#99, time_to_live=8, type: NORMAL_MSG, dst: E, path: ZUW is relayed at Node Z to Y
+msg#87, time_to_live=8, type: NORMAL_MSG, dst: R, path: ZYA is relayed at Node Z to Q
+msg#129, time_to_live=8, type: NORMAL_MSG, dst: M, path: ZQS is relayed at Node Z to Y
+msg#123, time_to_live=8, type: NORMAL_MSG, dst: Y, path: ZUV is relayed at Node Z to Y
+msg#139, time_to_live=8, type: NORMAL_MSG, dst: Z, path: UV is terminated at Node Z reached its destination
+msg#141, time_to_live=8, type: NORMAL_MSG, dst: Q, path: YAC is relayed at Node Y to Z
+msg#71, time_to_live=7, type: NORMAL_MSG, dst: B, path: AYEF is relayed at Node A to B
+msg#71, time_to_live=6, type: NORMAL_MSG, dst: B, path: AYEF is terminated at Node B reached its destination
+msg#154, time_to_live=9, type: NORMAL_MSG, dst: S, path: IO is relayed at Node I to A
+msg#112, time_to_live=7, type: NORMAL_MSG, dst: P, path: AYEG is relayed at Node A to I
+ done_routing true
+ ###### msg_sent 166  msg_terminated 99 done_routing true ######
+msg#128, time_to_live=8, type: NORMAL_MSG, dst: S, path: YEH is relayed at Node Y to Z
+msg#155, time_to_live=9, type: NORMAL_MSG, dst: W, path: IJ is relayed at Node I to A
+msg#130, time_to_live=8, type: NORMAL_MSG, dst: B, path: ZQT is relayed at Node Z to Y
+msg#87, time_to_live=7, type: NORMAL_MSG, dst: R, path: QZYA is relayed at Node Q to R
+msg#87, time_to_live=6, type: NORMAL_MSG, dst: R, path: QZYA is terminated at Node R reached its destination
+msg#74, time_to_live=7, type: NORMAL_MSG, dst: B, path: AYZU is relayed at Node A to B
+msg#74, time_to_live=6, type: NORMAL_MSG, dst: B, path: AYZU is terminated at Node B reached its destination
+msg#104, time_to_live=8, type: NORMAL_MSG, dst: F, path: AIN is relayed at Node A to Y
+ done_routing true
+ ###### msg_sent 166  msg_terminated 101 done_routing true ######
+msg#156, time_to_live=9, type: NORMAL_MSG, dst: Q, path: IM is relayed at Node I to A
+msg#110, time_to_live=8, type: NORMAL_MSG, dst: D, path: YZU is relayed at Node Y to A
+msg#145, time_to_live=8, type: NORMAL_MSG, dst: O, path: ZQS is relayed at Node Z to Y
+msg#161, time_to_live=8, type: NORMAL_MSG, dst: N, path: ZQR is relayed at Node Z to Y
+msg#107, time_to_live=8, type: NORMAL_MSG, dst: G, path: AIO is relayed at Node A to Y
+msg#67, time_to_live=7, type: NORMAL_MSG, dst: S, path: ZYAI is relayed at Node Z to Q
+msg#165, time_to_live=8, type: NORMAL_MSG, dst: O, path: ZQR is relayed at Node Z to Y
+msg#136, time_to_live=8, type: NORMAL_MSG, dst: B, path: YEG is relayed at Node Y to A
+msg#113, time_to_live=8, type: NORMAL_MSG, dst: B, path: AIK is relayed at Node A to B
+msg#113, time_to_live=7, type: NORMAL_MSG, dst: B, path: AIK is terminated at Node B reached its destination
+ done_routing true
+ ###### msg_sent 166  msg_terminated 102 done_routing true ######
+msg#159, time_to_live=9, type: NORMAL_MSG, dst: G, path: IN is relayed at Node I to A
+msg#67, time_to_live=6, type: NORMAL_MSG, dst: S, path: QZYAI is relayed at Node Q to S
+msg#67, time_to_live=5, type: NORMAL_MSG, dst: S, path: QZYAI is terminated at Node S reached its destination
+msg#118, time_to_live=8, type: NORMAL_MSG, dst: C, path: AIK is relayed at Node A to C
+msg#131, time_to_live=8, type: NORMAL_MSG, dst: A, path: IP is terminated at Node A reached its destination
+msg#118, time_to_live=7, type: NORMAL_MSG, dst: C, path: AIK is terminated at Node C reached its destination
+msg#160, time_to_live=9, type: NORMAL_MSG, dst: X, path: IM is relayed at Node I to A
+msg#142, time_to_live=8, type: NORMAL_MSG, dst: J, path: YEH is relayed at Node Y to A
+msg#79, time_to_live=7, type: NORMAL_MSG, dst: V, path: ZYAD is relayed at Node Z to U
+msg#115, time_to_live=7, type: NORMAL_MSG, dst: W, path: ZYEH is relayed at Node Z to U
+msg#134, time_to_live=8, type: NORMAL_MSG, dst: G, path: AIN is relayed at Node A to Y
+msg#163, time_to_live=8, type: NORMAL_MSG, dst: S, path: YAD is relayed at Node Y to Z
+msg#117, time_to_live=7, type: NORMAL_MSG, dst: M, path: AYEF is relayed at Node A to I
+ done_routing true
+ ###### msg_sent 166  msg_terminated 105 done_routing true ######
+msg#85, time_to_live=7, type: NORMAL_MSG, dst: R, path: ZYAD is relayed at Node Z to Q
+msg#85, time_to_live=6, type: NORMAL_MSG, dst: R, path: QZYAD is relayed at Node Q to R
+msg#85, time_to_live=5, type: NORMAL_MSG, dst: R, path: QZYAD is terminated at Node R reached its destination
+msg#116, time_to_live=7, type: NORMAL_MSG, dst: X, path: ZYEH is relayed at Node Z to U
+msg#90, time_to_live=8, type: NORMAL_MSG, dst: L, path: IAD is relayed at Node I to L
+msg#90, time_to_live=7, type: NORMAL_MSG, dst: L, path: IAD is terminated at Node L reached its destination
+msg#79, time_to_live=6, type: NORMAL_MSG, dst: V, path: UZYAD is relayed at Node U to V
+msg#79, time_to_live=5, type: NORMAL_MSG, dst: V, path: UZYAD is terminated at Node V reached its destination
+msg#140, time_to_live=8, type: NORMAL_MSG, dst: W, path: AIK is relayed at Node A to Y
+msg#127, time_to_live=8, type: NORMAL_MSG, dst: G, path: YZU is relayed at Node Y to E
+msg#127, time_to_live=7, type: NORMAL_MSG, dst: G, path: EYZU is relayed at Node E to G
+msg#127, time_to_live=6, type: NORMAL_MSG, dst: G, path: EYZU is terminated at Node G reached its destination
+msg#144, time_to_live=8, type: NORMAL_MSG, dst: J, path: IAC is relayed at Node I to J
+msg#144, time_to_live=7, type: NORMAL_MSG, dst: J, path: IAC is terminated at Node J reached its destination
+msg#91, time_to_live=7, type: NORMAL_MSG, dst: T, path: ZYAB is relayed at Node Z to Q
+msg#115, time_to_live=6, type: NORMAL_MSG, dst: W, path: UZYEH is relayed at Node U to W
+msg#115, time_to_live=5, type: NORMAL_MSG, dst: W, path: UZYEH is terminated at Node W reached its destination
+msg#91, time_to_live=6, type: NORMAL_MSG, dst: T, path: QZYAB is relayed at Node Q to T
+msg#91, time_to_live=5, type: NORMAL_MSG, dst: T, path: QZYAB is terminated at Node T reached its destination
+msg#153, time_to_live=8, type: NORMAL_MSG, dst: L, path: IAB is relayed at Node I to L
+msg#153, time_to_live=7, type: NORMAL_MSG, dst: L, path: IAB is terminated at Node L reached its destination
+ done_routing true
+ ###### msg_sent 166  msg_terminated 113 done_routing true ######
+msg#135, time_to_live=8, type: NORMAL_MSG, dst: K, path: YZU is relayed at Node Y to A
+msg#105, time_to_live=7, type: NORMAL_MSG, dst: D, path: AYZU is relayed at Node A to D
+msg#105, time_to_live=6, type: NORMAL_MSG, dst: D, path: AYZU is terminated at Node D reached its destination
+msg#100, time_to_live=7, type: NORMAL_MSG, dst: V, path: ZYAI is relayed at Node Z to U
+msg#116, time_to_live=6, type: NORMAL_MSG, dst: X, path: UZYEH is relayed at Node U to X
+msg#116, time_to_live=5, type: NORMAL_MSG, dst: X, path: UZYEH is terminated at Node X reached its destination
+msg#84, time_to_live=7, type: NORMAL_MSG, dst: O, path: IAYE is relayed at Node I to O
+msg#103, time_to_live=7, type: NORMAL_MSG, dst: I, path: AYZ is terminated at Node I reached its destination
+msg#84, time_to_live=6, type: NORMAL_MSG, dst: O, path: IAYE is terminated at Node O reached its destination
+msg#114, time_to_live=7, type: NORMAL_MSG, dst: K, path: IAYZ is relayed at Node I to K
+msg#114, time_to_live=6, type: NORMAL_MSG, dst: K, path: IAYZ is terminated at Node K reached its destination
+msg#100, time_to_live=6, type: NORMAL_MSG, dst: V, path: UZYAI is relayed at Node U to V
+msg#100, time_to_live=5, type: NORMAL_MSG, dst: V, path: UZYAI is terminated at Node V reached its destination
+msg#141, time_to_live=7, type: NORMAL_MSG, dst: Q, path: ZYAC is relayed at Node Z to Q
+msg#141, time_to_live=6, type: NORMAL_MSG, dst: Q, path: ZYAC is terminated at Node Q reached its destination
+msg#148, time_to_live=8, type: NORMAL_MSG, dst: Z, path: AIM is relayed at Node A to Y
+msg#112, time_to_live=6, type: NORMAL_MSG, dst: P, path: IAYEG is relayed at Node I to P
+msg#112, time_to_live=5, type: NORMAL_MSG, dst: P, path: IAYEG is terminated at Node P reached its destination
+msg#128, time_to_live=7, type: NORMAL_MSG, dst: S, path: ZYEH is relayed at Node Z to Q
+ done_routing true
+ ###### msg_sent 166  msg_terminated 121 done_routing true ######
+msg#143, time_to_live=8, type: NORMAL_MSG, dst: Q, path: YEH is relayed at Node Y to Z
+msg#163, time_to_live=7, type: NORMAL_MSG, dst: S, path: ZYAD is relayed at Node Z to Q
+msg#143, time_to_live=7, type: NORMAL_MSG, dst: Q, path: ZYEH is relayed at Node Z to Q
+msg#164, time_to_live=8, type: NORMAL_MSG, dst: S, path: YAD is relayed at Node Y to Z
+msg#117, time_to_live=6, type: NORMAL_MSG, dst: M, path: IAYEF is relayed at Node I to M
+msg#117, time_to_live=5, type: NORMAL_MSG, dst: M, path: IAYEF is terminated at Node M reached its destination
+msg#149, time_to_live=8, type: NORMAL_MSG, dst: Q, path: AIK is relayed at Node A to Y
+msg#128, time_to_live=6, type: NORMAL_MSG, dst: S, path: QZYEH is relayed at Node Q to S
+msg#128, time_to_live=5, type: NORMAL_MSG, dst: S, path: QZYEH is terminated at Node S reached its destination
+ done_routing true
+ ###### msg_sent 166  msg_terminated 123 done_routing true ######
+msg#66, time_to_live=7, type: NORMAL_MSG, dst: E, path: YAIL is relayed at Node Y to E
+msg#66, time_to_live=6, type: NORMAL_MSG, dst: E, path: YAIL is terminated at Node E reached its destination
+msg#163, time_to_live=6, type: NORMAL_MSG, dst: S, path: QZYAD is relayed at Node Q to S
+msg#163, time_to_live=5, type: NORMAL_MSG, dst: S, path: QZYAD is terminated at Node S reached its destination
+msg#143, time_to_live=6, type: NORMAL_MSG, dst: Q, path: ZYEH is terminated at Node Q reached its destination
+msg#124, time_to_live=7, type: NORMAL_MSG, dst: D, path: AYEG is relayed at Node A to D
+msg#124, time_to_live=6, type: NORMAL_MSG, dst: D, path: AYEG is terminated at Node D reached its destination
+msg#164, time_to_live=7, type: NORMAL_MSG, dst: S, path: ZYAD is relayed at Node Z to Q
+msg#151, time_to_live=8, type: NORMAL_MSG, dst: B, path: AIJ is relayed at Node A to B
+msg#151, time_to_live=7, type: NORMAL_MSG, dst: B, path: AIJ is terminated at Node B reached its destination
+msg#164, time_to_live=6, type: NORMAL_MSG, dst: S, path: QZYAD is relayed at Node Q to S
+msg#164, time_to_live=5, type: NORMAL_MSG, dst: S, path: QZYAD is terminated at Node S reached its destination
+msg#147, time_to_live=8, type: NORMAL_MSG, dst: R, path: YEG is relayed at Node Y to Z
+ done_routing true
+ ###### msg_sent 166  msg_terminated 129 done_routing true ######
+msg#77, time_to_live=7, type: NORMAL_MSG, dst: V, path: YAIJ is relayed at Node Y to Z
+msg#154, time_to_live=8, type: NORMAL_MSG, dst: S, path: AIO is relayed at Node A to Y
+msg#147, time_to_live=7, type: NORMAL_MSG, dst: R, path: ZYEG is relayed at Node Z to Q
+msg#147, time_to_live=6, type: NORMAL_MSG, dst: R, path: QZYEG is relayed at Node Q to R
+msg#147, time_to_live=5, type: NORMAL_MSG, dst: R, path: QZYEG is terminated at Node R reached its destination
+msg#155, time_to_live=8, type: NORMAL_MSG, dst: W, path: AIJ is relayed at Node A to Y
+msg#77, time_to_live=6, type: NORMAL_MSG, dst: V, path: ZYAIJ is relayed at Node Z to U
+msg#158, time_to_live=8, type: NORMAL_MSG, dst: T, path: YEH is relayed at Node Y to Z
+msg#156, time_to_live=8, type: NORMAL_MSG, dst: Q, path: AIM is relayed at Node A to Y
+ done_routing true
+ ###### msg_sent 166  msg_terminated 130 done_routing true ######
+msg#77, time_to_live=5, type: NORMAL_MSG, dst: V, path: UZYAIJ is relayed at Node U to V
+msg#77, time_to_live=4, type: NORMAL_MSG, dst: V, path: UZYAIJ is terminated at Node V reached its destination
+msg#110, time_to_live=7, type: NORMAL_MSG, dst: D, path: AYZU is relayed at Node A to D
+msg#110, time_to_live=6, type: NORMAL_MSG, dst: D, path: AYZU is terminated at Node D reached its destination
+msg#158, time_to_live=7, type: NORMAL_MSG, dst: T, path: ZYEH is relayed at Node Z to Q
+msg#162, time_to_live=8, type: NORMAL_MSG, dst: V, path: YEF is relayed at Node Y to Z
+msg#158, time_to_live=6, type: NORMAL_MSG, dst: T, path: QZYEH is relayed at Node Q to T
+msg#158, time_to_live=5, type: NORMAL_MSG, dst: T, path: QZYEH is terminated at Node T reached its destination
+msg#136, time_to_live=7, type: NORMAL_MSG, dst: B, path: AYEG is relayed at Node A to B
+msg#136, time_to_live=6, type: NORMAL_MSG, dst: B, path: AYEG is terminated at Node B reached its destination
+msg#159, time_to_live=8, type: NORMAL_MSG, dst: G, path: AIN is relayed at Node A to Y
+ done_routing true
+ ###### msg_sent 166  msg_terminated 134 done_routing true ######
+msg#162, time_to_live=7, type: NORMAL_MSG, dst: V, path: ZYEF is relayed at Node Z to U
+msg#162, time_to_live=6, type: NORMAL_MSG, dst: V, path: UZYEF is relayed at Node U to V
+msg#162, time_to_live=5, type: NORMAL_MSG, dst: V, path: UZYEF is terminated at Node V reached its destination
+msg#80, time_to_live=7, type: NORMAL_MSG, dst: V, path: YAIN is relayed at Node Y to Z
+msg#160, time_to_live=8, type: NORMAL_MSG, dst: X, path: AIM is relayed at Node A to Y
+msg#81, time_to_live=7, type: NORMAL_MSG, dst: E, path: YAIL is relayed at Node Y to E
+msg#81, time_to_live=6, type: NORMAL_MSG, dst: E, path: YAIL is terminated at Node E reached its destination
+msg#73, time_to_live=7, type: NORMAL_MSG, dst: K, path: YZQS is relayed at Node Y to A
+msg#142, time_to_live=7, type: NORMAL_MSG, dst: J, path: AYEH is relayed at Node A to I
+ done_routing true
+ ###### msg_sent 166  msg_terminated 136 done_routing true ######
+msg#135, time_to_live=7, type: NORMAL_MSG, dst: K, path: AYZU is relayed at Node A to I
+msg#80, time_to_live=6, type: NORMAL_MSG, dst: V, path: ZYAIN is relayed at Node Z to U
+msg#72, time_to_live=7, type: NORMAL_MSG, dst: L, path: YZUV is relayed at Node Y to A
+msg#142, time_to_live=6, type: NORMAL_MSG, dst: J, path: IAYEH is relayed at Node I to J
+msg#142, time_to_live=5, type: NORMAL_MSG, dst: J, path: IAYEH is terminated at Node J reached its destination
+msg#80, time_to_live=5, type: NORMAL_MSG, dst: V, path: UZYAIN is relayed at Node U to V
+msg#80, time_to_live=4, type: NORMAL_MSG, dst: V, path: UZYAIN is terminated at Node V reached its destination
+msg#73, time_to_live=6, type: NORMAL_MSG, dst: K, path: AYZQS is relayed at Node A to I
+msg#72, time_to_live=6, type: NORMAL_MSG, dst: L, path: AYZUV is relayed at Node A to I
+ done_routing true
+ ###### msg_sent 166  msg_terminated 138 done_routing true ######
+msg#89, time_to_live=7, type: NORMAL_MSG, dst: H, path: YAIM is relayed at Node Y to E
+msg#135, time_to_live=6, type: NORMAL_MSG, dst: K, path: IAYZU is relayed at Node I to K
+msg#135, time_to_live=5, type: NORMAL_MSG, dst: K, path: IAYZU is terminated at Node K reached its destination
+msg#73, time_to_live=5, type: NORMAL_MSG, dst: K, path: IAYZQS is relayed at Node I to K
+msg#73, time_to_live=4, type: NORMAL_MSG, dst: K, path: IAYZQS is terminated at Node K reached its destination
+msg#89, time_to_live=6, type: NORMAL_MSG, dst: H, path: EYAIM is relayed at Node E to H
+msg#89, time_to_live=5, type: NORMAL_MSG, dst: H, path: EYAIM is terminated at Node H reached its destination
+msg#76, time_to_live=7, type: NORMAL_MSG, dst: D, path: YZUV is relayed at Node Y to A
+ done_routing true
+ ###### msg_sent 166  msg_terminated 141 done_routing true ######
+msg#76, time_to_live=6, type: NORMAL_MSG, dst: D, path: AYZUV is relayed at Node A to D
+msg#76, time_to_live=5, type: NORMAL_MSG, dst: D, path: AYZUV is terminated at Node D reached its destination
+msg#83, time_to_live=7, type: NORMAL_MSG, dst: K, path: YZUX is relayed at Node Y to A
+msg#72, time_to_live=5, type: NORMAL_MSG, dst: L, path: IAYZUV is relayed at Node I to L
+msg#72, time_to_live=4, type: NORMAL_MSG, dst: L, path: IAYZUV is terminated at Node L reached its destination
+msg#83, time_to_live=6, type: NORMAL_MSG, dst: K, path: AYZUX is relayed at Node A to I
+ done_routing true
+ ###### msg_sent 166  msg_terminated 143 done_routing true ######
+msg#122, time_to_live=7, type: NORMAL_MSG, dst: I, path: YZQT is relayed at Node Y to A
+msg#122, time_to_live=6, type: NORMAL_MSG, dst: I, path: AYZQT is relayed at Node A to I
+msg#83, time_to_live=5, type: NORMAL_MSG, dst: K, path: IAYZUX is relayed at Node I to K
+msg#122, time_to_live=5, type: NORMAL_MSG, dst: I, path: AYZQT is terminated at Node I reached its destination
+msg#83, time_to_live=4, type: NORMAL_MSG, dst: K, path: IAYZUX is terminated at Node K reached its destination
+msg#98, time_to_live=7, type: NORMAL_MSG, dst: O, path: YZUV is relayed at Node Y to A
+msg#96, time_to_live=7, type: NORMAL_MSG, dst: G, path: YAIO is relayed at Node Y to E
+msg#98, time_to_live=6, type: NORMAL_MSG, dst: O, path: AYZUV is relayed at Node A to I
+msg#98, time_to_live=5, type: NORMAL_MSG, dst: O, path: IAYZUV is relayed at Node I to O
+msg#98, time_to_live=4, type: NORMAL_MSG, dst: O, path: IAYZUV is terminated at Node O reached its destination
+msg#96, time_to_live=6, type: NORMAL_MSG, dst: G, path: EYAIO is relayed at Node E to G
+msg#96, time_to_live=5, type: NORMAL_MSG, dst: G, path: EYAIO is terminated at Node G reached its destination
+ done_routing true
+ ###### msg_sent 166  msg_terminated 147 done_routing true ######
+msg#97, time_to_live=7, type: NORMAL_MSG, dst: X, path: YAIO is relayed at Node Y to Z
+ done_routing true
+ ###### msg_sent 166  msg_terminated 147 done_routing true ######
+msg#97, time_to_live=6, type: NORMAL_MSG, dst: X, path: ZYAIO is relayed at Node Z to U
+msg#99, time_to_live=7, type: NORMAL_MSG, dst: E, path: YZUW is relayed at Node Y to E
+msg#99, time_to_live=6, type: NORMAL_MSG, dst: E, path: YZUW is terminated at Node E reached its destination
+msg#97, time_to_live=5, type: NORMAL_MSG, dst: X, path: UZYAIO is relayed at Node U to X
+msg#97, time_to_live=4, type: NORMAL_MSG, dst: X, path: UZYAIO is terminated at Node X reached its destination
+msg#129, time_to_live=7, type: NORMAL_MSG, dst: M, path: YZQS is relayed at Node Y to A
+msg#123, time_to_live=7, type: NORMAL_MSG, dst: Y, path: ZUV is terminated at Node Y reached its destination
+ done_routing true
+ ###### msg_sent 166  msg_terminated 150 done_routing true ######
+msg#129, time_to_live=6, type: NORMAL_MSG, dst: M, path: AYZQS is relayed at Node A to I
+msg#130, time_to_live=7, type: NORMAL_MSG, dst: B, path: YZQT is relayed at Node Y to A
+msg#130, time_to_live=6, type: NORMAL_MSG, dst: B, path: AYZQT is relayed at Node A to B
+msg#130, time_to_live=5, type: NORMAL_MSG, dst: B, path: AYZQT is terminated at Node B reached its destination
+msg#129, time_to_live=5, type: NORMAL_MSG, dst: M, path: IAYZQS is relayed at Node I to M
+msg#129, time_to_live=4, type: NORMAL_MSG, dst: M, path: IAYZQS is terminated at Node M reached its destination
+ done_routing true
+ ###### msg_sent 166  msg_terminated 152 done_routing true ######
+msg#104, time_to_live=7, type: NORMAL_MSG, dst: F, path: YAIN is relayed at Node Y to E
+msg#145, time_to_live=7, type: NORMAL_MSG, dst: O, path: YZQS is relayed at Node Y to A
+msg#104, time_to_live=6, type: NORMAL_MSG, dst: F, path: EYAIN is relayed at Node E to F
+msg#104, time_to_live=5, type: NORMAL_MSG, dst: F, path: EYAIN is terminated at Node F reached its destination
+msg#161, time_to_live=7, type: NORMAL_MSG, dst: N, path: YZQR is relayed at Node Y to A
+ done_routing true
+ ###### msg_sent 166  msg_terminated 153 done_routing true ######
+msg#145, time_to_live=6, type: NORMAL_MSG, dst: O, path: AYZQS is relayed at Node A to I
+msg#145, time_to_live=5, type: NORMAL_MSG, dst: O, path: IAYZQS is relayed at Node I to O
+msg#145, time_to_live=4, type: NORMAL_MSG, dst: O, path: IAYZQS is terminated at Node O reached its destination
+msg#107, time_to_live=7, type: NORMAL_MSG, dst: G, path: YAIO is relayed at Node Y to E
+msg#161, time_to_live=6, type: NORMAL_MSG, dst: N, path: AYZQR is relayed at Node A to I
+ done_routing true
+ ###### msg_sent 166  msg_terminated 154 done_routing true ######
+msg#107, time_to_live=6, type: NORMAL_MSG, dst: G, path: EYAIO is relayed at Node E to G
+msg#107, time_to_live=5, type: NORMAL_MSG, dst: G, path: EYAIO is terminated at Node G reached its destination
+msg#165, time_to_live=7, type: NORMAL_MSG, dst: O, path: YZQR is relayed at Node Y to A
+msg#161, time_to_live=5, type: NORMAL_MSG, dst: N, path: IAYZQR is relayed at Node I to N
+msg#161, time_to_live=4, type: NORMAL_MSG, dst: N, path: IAYZQR is terminated at Node N reached its destination
+msg#165, time_to_live=6, type: NORMAL_MSG, dst: O, path: AYZQR is relayed at Node A to I
+ done_routing true
+ ###### msg_sent 166  msg_terminated 156 done_routing true ######
+msg#165, time_to_live=5, type: NORMAL_MSG, dst: O, path: IAYZQR is relayed at Node I to O
+msg#165, time_to_live=4, type: NORMAL_MSG, dst: O, path: IAYZQR is terminated at Node O reached its destination
+msg#134, time_to_live=7, type: NORMAL_MSG, dst: G, path: YAIN is relayed at Node Y to E
+msg#140, time_to_live=7, type: NORMAL_MSG, dst: W, path: YAIK is relayed at Node Y to Z
+msg#148, time_to_live=7, type: NORMAL_MSG, dst: Z, path: YAIM is relayed at Node Y to Z
+msg#149, time_to_live=7, type: NORMAL_MSG, dst: Q, path: YAIK is relayed at Node Y to Z
+msg#154, time_to_live=7, type: NORMAL_MSG, dst: S, path: YAIO is relayed at Node Y to Z
+ done_routing true
+ ###### msg_sent 166  msg_terminated 157 done_routing true ######
+msg#140, time_to_live=6, type: NORMAL_MSG, dst: W, path: ZYAIK is relayed at Node Z to U
+msg#148, time_to_live=6, type: NORMAL_MSG, dst: Z, path: YAIM is terminated at Node Z reached its destination
+msg#140, time_to_live=5, type: NORMAL_MSG, dst: W, path: UZYAIK is relayed at Node U to W
+msg#140, time_to_live=4, type: NORMAL_MSG, dst: W, path: UZYAIK is terminated at Node W reached its destination
+msg#155, time_to_live=7, type: NORMAL_MSG, dst: W, path: YAIJ is relayed at Node Y to Z
+msg#134, time_to_live=6, type: NORMAL_MSG, dst: G, path: EYAIN is relayed at Node E to G
+msg#134, time_to_live=5, type: NORMAL_MSG, dst: G, path: EYAIN is terminated at Node G reached its destination
+msg#156, time_to_live=7, type: NORMAL_MSG, dst: Q, path: YAIM is relayed at Node Y to Z
+msg#149, time_to_live=6, type: NORMAL_MSG, dst: Q, path: ZYAIK is relayed at Node Z to Q
+msg#149, time_to_live=5, type: NORMAL_MSG, dst: Q, path: ZYAIK is terminated at Node Q reached its destination
+ done_routing true
+ ###### msg_sent 166  msg_terminated 161 done_routing true ######
+msg#159, time_to_live=7, type: NORMAL_MSG, dst: G, path: YAIN is relayed at Node Y to E
+msg#160, time_to_live=7, type: NORMAL_MSG, dst: X, path: YAIM is relayed at Node Y to Z
+msg#159, time_to_live=6, type: NORMAL_MSG, dst: G, path: EYAIN is relayed at Node E to G
+msg#159, time_to_live=5, type: NORMAL_MSG, dst: G, path: EYAIN is terminated at Node G reached its destination
+msg#154, time_to_live=6, type: NORMAL_MSG, dst: S, path: ZYAIO is relayed at Node Z to Q
+msg#155, time_to_live=6, type: NORMAL_MSG, dst: W, path: ZYAIJ is relayed at Node Z to U
+msg#154, time_to_live=5, type: NORMAL_MSG, dst: S, path: QZYAIO is relayed at Node Q to S
+msg#154, time_to_live=4, type: NORMAL_MSG, dst: S, path: QZYAIO is terminated at Node S reached its destination
+ done_routing true
+ ###### msg_sent 166  msg_terminated 163 done_routing true ######
+msg#155, time_to_live=5, type: NORMAL_MSG, dst: W, path: UZYAIJ is relayed at Node U to W
+msg#155, time_to_live=4, type: NORMAL_MSG, dst: W, path: UZYAIJ is terminated at Node W reached its destination
+msg#156, time_to_live=6, type: NORMAL_MSG, dst: Q, path: ZYAIM is relayed at Node Z to Q
+msg#156, time_to_live=5, type: NORMAL_MSG, dst: Q, path: ZYAIM is terminated at Node Q reached its destination
+ done_routing true
+ ###### msg_sent 166  msg_terminated 165 done_routing true ######
+msg#160, time_to_live=6, type: NORMAL_MSG, dst: X, path: ZYAIM is relayed at Node Z to U
+msg#160, time_to_live=5, type: NORMAL_MSG, dst: X, path: UZYAIM is relayed at Node U to X
+msg#160, time_to_live=4, type: NORMAL_MSG, dst: X, path: UZYAIM is terminated at Node X reached its destination
+ done_routing true
+ ###### msg_sent 166  msg_terminated 166 orphan_msg_cnt 0 ######
+###### All messages sent are received ######
+##################################################
+next hop is Node A
+next hop is Node B
+next hop is Node C
+next hop is Node D
+next hop is Node E
+next hop is Node F
+Node B is now terminated
+next hop is Node G
+Node F is now terminated
+Node A is now terminated
+Node E is now terminated
+Node G is now terminated
+next hop is Node H
+Node C is now terminated
+Node D is now terminated
+next hop is Node I
+Node H is now terminated
+Node I is now terminated
+next hop is Node J
+Node J is now terminated
+next hop is Node K
+next hop is Node L
+Node K is now terminated
+next hop is Node M
+Node L is now terminated
+Node M is now terminated
+next hop is Node N
+next hop is Node O
+Node N is now terminated
+next hop is Node P
+Node O is now terminated
+next hop is Node Q
+Node P is now terminated
+next hop is Node R
+Node Q is now terminated
+next hop is Node S
+Node R is now terminated
+next hop is Node T
+Node S is now terminated
+next hop is Node U
+Node T is now terminated
+next hop is Node V
+Node U is now terminated
+next hop is Node W
+Node V is now terminated
+next hop is Node X
+Node W is now terminated
+next hop is Node Y
+Node X is now terminated
+Node Y is now terminated
+next hop is Node Z
+##################################################
+Node Z is now terminated
+msg_lost 0
+##################################################
+
+Process finished with exit code 0
